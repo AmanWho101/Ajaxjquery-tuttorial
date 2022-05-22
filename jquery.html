@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+
+$(function(){
+  $("button").click(function(){
+    var txt1 = $("<label></label>").text("NAme:");
+    var txt2 = $("<input class='input' value='name'></input>").text("Text.");
+    $("body").append(txt1, txt2);
+});
+});
+
+</script>
+</head>
+<body>
+
+<h1 >This Is a Heading. it will be hidden when you touch the button and reviel the msg</h1>
+
+<p >First This is a Paragraph</p>
+
+<button id="btn1">Click me</button>
+
+</body>
+</html>
